@@ -1,0 +1,38 @@
+# -------------------------------------------
+# Compilados y artefactos de Maven
+# -------------------------------------------
+target/
+build/
+out/
+*.class
+
+# -------------------------------------------
+# Archivos de IDE
+# -------------------------------------------
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+*.code-workspace
+
+# -------------------------------------------
+# Sistema operativo
+# -------------------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------------------
+# Secretos y configuración local
+# (las credenciales viven en variables de entorno)
+# -------------------------------------------
+.env
+*.env
+application-local.properties
+
+# -------------------------------------------
+# Logs
+# -------------------------------------------
+logs/
+*.log
